@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Plants1
+    second: {fileID: 2100000, guid: 22ed412309697cc43b99bcec41b8543b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: TileSet1
     second: {fileID: 2100000, guid: c18bededba9f0394b95e4e32bcc6c304, type: 2}
   - first:
@@ -82,7 +87,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

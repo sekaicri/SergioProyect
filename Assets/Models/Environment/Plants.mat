@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Plants
-  m_Shader: {fileID: -6465566751694194690, guid: 845c54212d7166c44828a42a41ccf668,
+  m_Shader: {fileID: -6465566751694194690, guid: 63e2acc2edb70544183155b8bc859f57,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -35,7 +35,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 823e701a2030ce34ab1c63b1c8733692, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -63,7 +63,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MSO:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 3e1921f0a599d0f47a8069bc30246497, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -75,7 +75,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Norma:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ddc1d9963f93a024087b689908ecdc82, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -120,6 +120,7 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
+    - _Movement: 0.05
     - _Night: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -129,6 +130,7 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed: 2
     - _SrcBlend: 1
     - _Surface: 0
     - _UVSec: 0
